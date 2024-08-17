@@ -1,0 +1,104 @@
+/* css reset */
+body {
+  color: rgb(255, 255, 255);
+  margin: 0px;
+  padding: 0px;
+  background-image: url("photo/img\ 11.jpg");
+  height: 4000px;
+  font-family: "Recursive", "sans-serif", "cursive", "calibri",
+    "Sedgwick Ave Display";
+}
+
+/* header section */
+.left {
+  display: inline-block;
+  position: absolute;
+  left: 34px;
+  top: 0px;
+  font-size: 25px;
+}
+.left img {
+  width: 80px;
+  filter: invert( 100% );
+   /*Used to invert the colors if the color is black it will make it white*/
+  margin-left: 10px;
+}
+.left:hover {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+.center {
+  /* display:block; */
+  width: 45%;
+  margin: auto;
+}
+.right {
+  display: inline-block;
+  position: absolute;
+  right: 34px;
+  top: 0px;
+}
+/* navbar in mid */
+.navbar {
+  display: inline-block;
+}
+.navbar li {
+  display: inline-block;
+  font-size: 20px;
+}
+.navbar a {
+  color: white;
+  text-decoration: none;
+  padding: 15px;
+}
+.navbar a:hover,
+.navbar a:active {
+  color: rgb(0, 0, 0);
+  text-decoration: underline;
+}
+/* button in .right */
+.btn {
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  margin: 0px 9px;
+  padding: 10px 15px;
+  border-radius: 10px;
+  font-family: "Recursive", sans-serif, "cursive", "Sedgwick Ave Display";
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: aliceblue;
+  color: rgb(0, 0, 0);
+}
+/* info sytle */
+.info{
+    margin:40px;
+    text-align: center;
+    font-size:50px;
+}
+/* container style */
+.container {
+  border: 2px solid rgb(4, 10, 5);
+  margin: auto;
+  padding: 30px;
+  width: 30%;
+  border-radius: 30px;
+}
+form input {
+  display: block;
+  width: 400px;
+  margin: 10px auto;
+  padding: 3px 10px;
+  border-radius: 10px;
+  font-family: "Recursive", sans-serif, "Cursive", "Sedgwick Ave Display",
+    "Courier New", Courier, monospace;
+}
+.container h1 {
+  text-align: center;
+}
+.container button {
+  display: block;
+  width: 34%;
+  margin: 20px auto;
+}
